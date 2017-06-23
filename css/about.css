@@ -1,0 +1,33 @@
+.jumbotron {
+    background: url(img/guitar.jpeg) no-repeat center center scroll;
+    height: 300px;
+    background-size: contain;
+}
+
+.jumbotron h2 {
+    text-align: center;
+    font-family: Courier;
+}
+
+.banner {
+    height: 250px;
+    background: url(img/windy_road.jpeg) no-repeat center bottom scroll;
+    background-size: cover;
+
+}
+
+.left {
+    text-align: left;
+    margin-right: 50%;
+}
+
+.right {
+    text-align: right;
+    margin-left: 50%;
+}
+
+.center {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}

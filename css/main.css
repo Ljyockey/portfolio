@@ -1,0 +1,54 @@
+html,
+body {
+    margin: 0;
+    border: 0;
+    background-color: #BA8961;
+    color: #000000;
+}
+
+h2 {
+    font-family: courier;
+}
+
+.header {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#active {
+    margin-right: 20px;
+}
+
+.header a,
+#active {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 80%;
+}
+
+ a:hover,
+#active {
+    background-color: #000000;
+    color: #BA8961;
+} 
+
+
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+#pull-right {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
