@@ -8,78 +8,82 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-   <div class="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-        <h1>L.J. Yockey</h1>
-        <p>Web Developer</p>
+   <header>
+        <nav class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>L.J. Yockey</h1>
+                    <p>Web Developer</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="pull-right">
+                    <li id="active">Home</li>    
+                    <li><a class="scroll" href="#about">About</a></li>
+                    <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+                    <li><a class="scroll" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-6">
-        <ul class="pull-right">
-        <li id="active">Home</li>    
-        <li><a href="pages/about.html">About</a></li>
-        <li><a href="pages/portfolio.html">Portfolio</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
-        </ul>
-            </div></div>
-       </div></div> 
+        </nav>
+    </header> 
     
     <div class="jumbotron">
-    <div class="container">
-        </div></div>
+        <div class="container">
+        </div>
+    </div>
     
-    <div class="main">
-        <h3>Check it out!</h3>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <p>Coming soon!</p>
+    <main>
+        
+        <section class="about" id="about">
+            <div class="intro">
+                <h2>Hi, I'm L.J.</h2>
             </div>
-            <div class="col-md-4">
-                <p>Coming soon!</p>
+            <div class="bio">
+                <p>I'm a web developer.</p>
             </div>
-                <div class="col-md-4">
-                    <p>Coming soon!</p>
-                </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <p>Coming soon!</p>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+
+            <h2>Portfolio</h2>
+
+            <div class="portfolio-piece" id="hospitalert-demo">
+                
             </div>
-            <div class="col-md-4">
-                <p>Coming soon!</p>
+
+            <div class="portfolio-piece" id="kitty-opinions">
+
             </div>
-                <div class="col-md-4">
-                    <p>Coming soon!</p>
-                </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <p>Coming soon!</p>
+
+            <div class="portfolio-piece" id="disneyland-quiz">
+
             </div>
-            <div class="col-md-4">
-                <p>Coming soon!</p>
+
+            <div class="portfolio-piece" id="hot-and-cold">
+
             </div>
-                <div class="col-md-4">
-                    <p>Coming soon!</p>
-                </div>
-        </div>        
-        </div></div>
+        </section>
+
+    </main>
     
-    <div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-               <ul>
-                   <li><a href="#">Contact</a></li>
-                <li><a href="#">Learn to Code</a></li></ul> 
-            </div>
-            <div class="col-md-6" id="pull-right">
-                <p>&copy; 2016 Yockey</p>
-                </div>
-        </div>
-        </div></div>
+    <footer id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Email me at linyockey@gmail.com or find me on social media!</p>
+        <p>
+            <a href="https://github.com/Ljyockey" target="blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+
+            <a href="https://medium.com/@Ljyockey" target="blank" rel="noopener noreferrer"><i class="fa fa-medium fa-2x" aria-hidden="true"></i><span class="visually-hidden">Medium</span></a>
+
+            <a href="https://twitter.com/Ljyockey" target="blank" rel="noopener noreferrer"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i><span class="visually-hidden">Twitter</span></a>
+        </p>
+
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>  
+    <script src="https://use.fontawesome.com/e2a5a772d8.js"></script>
+    <script type="text/javascript" src="scroll.js"></script>
 </body>
 
 </html>

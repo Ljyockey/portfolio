@@ -10,7 +10,7 @@ h2 {
     font-family: courier;
 }
 
-.header {
+header {
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -19,7 +19,7 @@ h2 {
     margin-right: 20px;
 }
 
-.header a,
+header a,
 #active {
     padding: 10px;
     border: 1px solid #000000;
@@ -40,8 +40,39 @@ li {
     padding-right: 20px;
 }
 
-.footer {
+.about {
+    text-align: center;
+}
+
+.intro {
+    background: url(img/guitar.jpeg) no-repeat center center scroll;
+    background-size: contain;
+    height: 300px;
+}
+
+.portfolio-piece {
+    height: 500px;
+}
+
+#hospitalert-demo {
+    background: url(img/hospitalert-demo.png) no-repeat center center scroll;
+}
+
+#kitty-opinions {
+    background: url(img/opinions.png) no-repeat center center scroll;
+}
+
+#disneyland-quiz {
+    background: url(img/disneyland-quiz.png) no-repeat center center scroll;
+}
+
+#hot-and-cold {
+    background: url(img/hot-and-cold.png) no-repeat center center scroll;
+}
+
+footer {
     margin-top: 50px;
+    text-align: center;
 }
 
 #pull-right {
@@ -51,4 +82,13 @@ li {
 a {
     text-decoration: none;
     color: #000000;
+}
+
+footer a:hover {
+    color: white;
+    background-color: inherit;
+}
+
+.visually-hidden {
+    display: none;
 }
