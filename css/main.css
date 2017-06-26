@@ -2,17 +2,21 @@ html,
 body {
     margin: 0;
     border: 0;
-    background-color: #BA8961;
+    background-color: #eee;
     color: #000000;
 }
 
-h2 {
+h2, h3, p {
     font-family: courier;
 }
 
 header {
     margin-bottom: 30px;
     margin-top: 20px;
+}
+
+.pull-right {
+    padding-top: 30px;
 }
 
 #active {
@@ -29,7 +33,7 @@ header a,
  a:hover,
 #active {
     background-color: #000000;
-    color: #BA8961;
+    color: #eee;
 } 
 
 
@@ -40,21 +44,30 @@ li {
     padding-right: 20px;
 }
 
-.about {
+.about, .portfolio h2 {
     text-align: center;
-}
-
-.intro {
-    background: url(img/guitar.jpeg) no-repeat center center scroll;
-    background-size: contain;
-    height: 300px;
 }
 
 .portfolio-piece {
     height: 500px;
+    background-color: lightgrey;
+    max-width: 70%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#hospitalert-demo {
+.portfolio-piece img {
+    max-width: 45%;
+    height: auto;
+    float: right;
+}
+
+.portfolio-details, .portfolio-details p {
+    display: inline;
+}
+
+/*#hospitalert-demo {
     background: url(img/hospitalert-demo.png) no-repeat center center scroll;
 }
 
@@ -68,7 +81,7 @@ li {
 
 #hot-and-cold {
     background: url(img/hot-and-cold.png) no-repeat center center scroll;
-}
+}*/
 
 footer {
     margin-top: 50px;
