@@ -3,36 +3,50 @@
 <head>
     <title>L.J. Yockey</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
    <header>
-        <nav class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>L.J. Yockey</h1>
-                    <p>Web Developer</p>
-                </div>
-                <div class="col-md-6">
-                    <ul class="pull-right">
-                    <li id="active">Home</li>    
-                    <li><a class="scroll" href="#about">About</a></li>
-                    <li><a class="scroll" href="#portfolio">Portfolio</a></li>
-                    <li><a class="scroll" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+        <nav>
+            <ul class="site-nav">
+                <li><a class="scroll" href="#home">Home</a></li>   
+                <li><a class="scroll" href="#about">About</a></li>
+                <li><a class="scroll" href="#projects">Projects</a></li>
+                <li><a class="scroll" href="#contact">Contact</a></li>
+            </ul>
         </nav>
+        <div id="home">
+            <h1>L.J. Yockey</h1>
+            <p>Full-Stack Developer</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+            </ul>
+            <ul>
+                <li>jQuery</li>
+                <li>Mongoose</li>
+                <li>Sequelize</li>
+                <li>Mocha/Chai</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Enzyme</li>
+            </ul>
+            <ul>
+                <li>Git/GitHub</li>
+                <li>Heroku</li>
+                <li>Netlify</li>
+                <li>Travis CI</li>
+            </ul>
+        </div>
     </header> 
     
-    <div class="jumbotron">
-        <div class="container">
-        </div>
-    </div>
-    
-    <main>
+    <main class="container">
         
         <section class="about" id="about">
             <div class="bio">
@@ -41,54 +55,74 @@
             </div>
         </section>
 
-        <section class="portfolio" id="portfolio">
+        <hr>
 
-            <h2>Portfolio</h2>
+        <section class="projects" id="projects">
 
-            <div class="portfolio-piece" id="hospitalert-demo">
-                <img src="css/img/hospitalert-demo.png">
-                <div class="portfolio-details">
+            <h2>Projects</h2>
+
+            <div class="projects-piece row" id="hospitalert-demo">
+                <div class="col-md-6">
+                    <img src="css/img/hospitalert-demo.png">
+                </div>
+                <div class="projects-details col-md-6">
                     <h3>HospitAlert (Demo)</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
                     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
                     ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
                     vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p class="project-links"><a href="https://hospitalert.herokuapp.com/" target="blank" rel="noopener noreferrer">Live</a>
+                    <a href="https://github.com/Ljyockey/hospitalert" target="blank" rel="noopener noreferrer">GitHub</a></p>
                 </div>
             </div>
 
-            <div class="portfolio-piece" id="kitty-opinions">
-                <img src="css/img/opinions.png">
-                <div class="portfolio-details">
+            <div class="projects-piece row" id="kitty-opinions">
+                <div class="col-md-6">
+                    <img src="css/img/opinions.png">
+                </div>
+                <div class="projects-details col-md-6">
                     <h3>Kitty Opinions</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
                     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
                     ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
                     vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p class="project-links"><a href="https://ljyockey.github.io/kitty-opinions/" target="blank" rel="noopener noreferrer">Live</a>
+                    <a href="https://github.com/Ljyockey/kitty-opinions" target="blank" rel="noopener noreferrer">GitHub</a></p>
                 </div>
             </div>
 
-            <div class="portfolio-piece" id="disneyland-quiz">
-                <img src="css/img/disneyland-quiz.png">
-                <div class="portfolio-details">
+            <div class="projects-piece row" id="disneyland-quiz">
+                <div class="col-md-6">
+                    <img src="css/img/disneyland-quiz.png">
+                </div>
+                <div class="projects-details col-md-6">
                     <h3>Disneyland Quiz</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
                     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
                     ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
                     vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p class="project-links"><a href="https://ljyockey.github.io/disney-quiz/views/index.html" target="blank" rel="noopener noreferrer">Live</a>
+                    <a href="https://github.com/Ljyockey/disney-quiz" target="blank" rel="noopener noreferrer">GitHub</a></p>
                 </div>
             </div>
 
-            <div class="portfolio-piece" id="hot-and-cold">
-                <img src="css/img/hot-and-cold.png">
-                <div class="portfolio-details">
+            <div class="projects-piece row" id="hot-and-cold">
+                <div class="col-md-6">
+                    <img src="css/img/hot-and-cold.png">
+                </div>
+                <div class="projects-details col-md-6">
                     <h3>Hot or Cold</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
                     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
                     ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
                     vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p class="project-links"><a href="http://tycoon-clarence-47681.netlify.com/" target="blank" rel="noopener noreferrer">Live</a>
+                    <a href="https://github.com/Ljyockey/hot-and-cold" target="blank" rel="noopener noreferrer">GitHub</a></p>
                 </div>
             </div>
         </section>
+
+        <hr>
 
     </main>
     

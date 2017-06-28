@@ -6,7 +6,7 @@ body {
     color: #000000;
 }
 
-h2, h3, p {
+h2, h3, p, li {
     font-family: courier;
 }
 
@@ -15,73 +15,95 @@ header {
     margin-top: 20px;
 }
 
-.pull-right {
-    padding-top: 30px;
-}
-
-#active {
-    margin-right: 20px;
+nav {
+    background-color: rgba(255,255,255,.95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 header a,
-#active {
-    padding: 10px;
+.project-links a {
     border: 1px solid #000000;
     border-radius: 80%;
 }
 
- a:hover,
-#active {
-    background-color: #000000;
-    color: #eee;
-} 
-
-
-
-li {
-    list-style-type: none;
-    display: inline;
-    padding-right: 20px;
+header a {
+    padding: 5px;
 }
 
-.about, .portfolio h2 {
+ a:hover {
+    background-color: #000000;
+    color: white;
+} 
+
+#home {
+    margin-top: 50px;
+    padding-top: 50px;
     text-align: center;
 }
 
-.portfolio-piece {
-    height: 500px;
-    background-color: lightgrey;
+
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.about, .projects h2 {
+    text-align: center;
+}
+
+.about {
     max-width: 70%;
-    height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.portfolio-piece img {
-    max-width: 45%;
+hr {
+    border-style: inset;
+    border-width: 1px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+}
+
+.projects-piece {
+    min-height: 500px;
+    background-color: lightgrey;
+    min-height: 300px;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19),
+    0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projects-piece img {
+    max-width: 100%;
     height: auto;
     float: right;
 }
 
-.portfolio-details, .portfolio-details p {
+.projects-details, .projects-details p:first-child {
     display: inline;
 }
 
-/*#hospitalert-demo {
-    background: url(img/hospitalert-demo.png) no-repeat center center scroll;
+.project-links {
+    text-align: center;
+    margin-top: 20px;
 }
 
-#kitty-opinions {
-    background: url(img/opinions.png) no-repeat center center scroll;
+.project-links a {
+    padding: 10px;
 }
-
-#disneyland-quiz {
-    background: url(img/disneyland-quiz.png) no-repeat center center scroll;
-}
-
-#hot-and-cold {
-    background: url(img/hot-and-cold.png) no-repeat center center scroll;
-}*/
 
 footer {
     margin-top: 50px;
@@ -104,4 +126,14 @@ footer a:hover {
 
 .visually-hidden {
     display: none;
+}
+
+@media only screen and (min-width: 640px) {
+    ul li {
+        padding-right: 20px;
+    }
+
+    header a {
+        padding: 10px;
+    }
 }
