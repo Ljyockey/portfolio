@@ -5,44 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fondamento|Itim" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
    <header>
         <nav>
-            <ul class="site-nav">
-                <li><a class="scroll" href="#home">Home</a></li>   
+            <ul class="site-nav">  
                 <li><a class="scroll" href="#about">About</a></li>
                 <li><a class="scroll" href="#projects">Projects</a></li>
+                <li><a class="scroll" href="#blog">Blog</a></li>
                 <li><a class="scroll" href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div id="home">
             <h1>L.J. Yockey</h1>
-            <p>Full-Stack Developer</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>MongoDB</li>
-            </ul>
-            <ul>
-                <li>jQuery</li>
-                <li>Mongoose</li>
-                <li>Sequelize</li>
-                <li>Mocha/Chai</li>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Enzyme</li>
-            </ul>
-            <ul>
-                <li>Git/GitHub</li>
-                <li>Heroku</li>
-                <li>Netlify</li>
-                <li>Travis CI</li>
-            </ul>
+            <p>Full-Stack JavaScript Developer</p>
         </div>
     </header> 
     
@@ -63,14 +41,22 @@
 
             <div class="projects-piece row" id="hospitalert-demo">
                 <div class="col-md-6">
-                    <img src="css/img/hospitalert-demo.png">
+                    <img src="css/img/projects/hospitalert-demo.png">
                 </div>
                 <div class="projects-details col-md-6">
                     <h3>HospitAlert (Demo)</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
-                    vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p>The initial MVP for HospitAlert using mock data.</p>
+                    <ul class="projects-tech">
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Node/Express</li>
+                        <li>MongoDB</li>
+                        <li>Mongoose</li>
+                        <li>Mocha/Chai</li>
+                    </ul>
                     <p class="project-links"><a href="https://hospitalert.herokuapp.com/" target="blank" rel="noopener noreferrer">Live</a>
                     <a href="https://github.com/Ljyockey/hospitalert" target="blank" rel="noopener noreferrer">GitHub</a></p>
                 </div>
@@ -78,14 +64,23 @@
 
             <div class="projects-piece row" id="kitty-opinions">
                 <div class="col-md-6">
-                    <img src="css/img/opinions.png">
+                    <img src="css/img/projects/opinions.png">
                 </div>
                 <div class="projects-details col-md-6">
                     <h3>Kitty Opinions</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
-                    vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p>An entertaining app in which the user can search for any Foursquare location. When they click on a 
+                    location, they get more info as well as a "tips/reviews" section which contains a cat GIF and a Ron Swanson 
+                    quote from NBC's Parks and Recreation.</p>
+                    <ul class="projects-tech">
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Foursquare API</li>
+                        <li>Cat API</li>
+                        <li>Ron Swanson Quotes API</li>
+                    </ul>
                     <p class="project-links"><a href="https://ljyockey.github.io/kitty-opinions/" target="blank" rel="noopener noreferrer">Live</a>
                     <a href="https://github.com/Ljyockey/kitty-opinions" target="blank" rel="noopener noreferrer">GitHub</a></p>
                 </div>
@@ -93,14 +88,18 @@
 
             <div class="projects-piece row" id="disneyland-quiz">
                 <div class="col-md-6">
-                    <img src="css/img/disneyland-quiz.png">
+                    <img src="css/img/projects/disneyland-quiz.png">
                 </div>
                 <div class="projects-details col-md-6">
                     <h3>Disneyland Quiz</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
-                    vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p>A 10-question multiple-choice quiz about Disneyland. A state object is used to track
+                    the user's progress and score.</p>
+                    <ul class="projects-tech">
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                    </ul>
                     <p class="project-links"><a href="https://ljyockey.github.io/disney-quiz/views/index.html" target="blank" rel="noopener noreferrer">Live</a>
                     <a href="https://github.com/Ljyockey/disney-quiz" target="blank" rel="noopener noreferrer">GitHub</a></p>
                 </div>
@@ -108,17 +107,45 @@
 
             <div class="projects-piece row" id="hot-and-cold">
                 <div class="col-md-6">
-                    <img src="css/img/hot-and-cold.png">
+                    <img src="css/img/projects/hot-and-cold.png">
                 </div>
                 <div class="projects-details col-md-6">
                     <h3>Hot or Cold</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
-                    vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p>A classic guessing game in which the user picks a number between 1 and 100. The computer
+                    gives the users clues by telling them whether they're "hot" or "cold" until they have guessed correctly.</p>
+                    <ul class="projects-tech">
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
                     <p class="project-links"><a href="http://tycoon-clarence-47681.netlify.com/" target="blank" rel="noopener noreferrer">Live</a>
                     <a href="https://github.com/Ljyockey/hot-and-cold" target="blank" rel="noopener noreferrer">GitHub</a></p>
                 </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="medium-posts" id="blog">
+            <h2>Blog</h2>
+            <p>I've been keeping a blog on <a href="https://medium.com/@Ljyockey" target="blank" rel="noopener noreferrer">Medium</a> to track my progress and help encourage new programmers.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" target="blank" rel="noopener noreferrer"><img src="css/img/medium/medium-1.png"></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" target="blank" rel="noopener noreferrer"><img src="css/img/medium/medium-2.png"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" target="blank" rel="noopener noreferrer"><img src="css/img/medium/medium-3.png"></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" target="blank" rel="noopener noreferrer"><img src="css/img/medium/medium-6.png"></a>
+                </div>
+            </div>
             </div>
         </section>
 
@@ -130,7 +157,7 @@
 
         <h2>Contact</h2>
 
-        <p>Email me at linyockey@gmail.com or find me on social media!</p>
+        <p>Email me at <a href="mailto:linyockey@gmail.com">linyockey@gmail.com</a> or find me on social media!</p>
         <p>
             <a href="https://github.com/Ljyockey" target="blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
 
