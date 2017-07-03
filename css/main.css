@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     border: 0;
-    background-color: #eee;
+    background-color: #adaaac;
     color: #000000;
     font-family: 'Itim', cursive;
     font-size: 1.1em;
@@ -18,16 +18,17 @@ p {
 }
 
 header {
-    background: url(img/guitar.jpeg) no-repeat center center scroll;
+    background: url(img/ocean.jpeg) no-repeat center center scroll;
     height: 500px;
     background-size: cover;
     margin-bottom: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-    font-size: 3.5em;    
+    font-size: 2em;    
 }
 
 .site-nav, header p {
@@ -54,7 +55,7 @@ header a {
 
  a:hover {
     background-color: #000000;
-    color: white;
+    color: #e1dbd9
 } 
 
 ul {
@@ -81,7 +82,7 @@ ul li {
 hr {
     border-style: inset;
     border-width: 1px;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid #707e90;
     box-sizing: content-box;
 }
 
@@ -172,6 +173,10 @@ footer a:hover, footer a:focus {
     header {
         height: 800px;
         padding-top: 50px;
+    }
+
+    header h1 {
+        font-size: 3.5em;
     }
 
     ul li {
