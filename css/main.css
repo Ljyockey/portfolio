@@ -22,24 +22,16 @@ header {
     height: 500px;
     background-size: cover;
     margin-bottom: 30px;
-    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 header h1 {
     font-size: 3.5em;    
 }
 
-nav {
-    background-color: rgba(255,255,255,.95);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.site-nav, header p {
+    margin-top: 30px;
 }
 
 section {
@@ -48,10 +40,6 @@ section {
 
 section h2, .medium-posts p {
     margin-bottom: 20px;
-}
-
-.site-nav {
-    text-align: center;
 }
 
 header a,
@@ -68,13 +56,6 @@ header a {
     background-color: #000000;
     color: white;
 } 
-
-#home {
-    margin-top: 50px;
-    padding-top: 50px;
-    text-align: center;
-}
-
 
 ul {
     padding-left: 0;
@@ -179,22 +160,23 @@ footer a:hover, footer a:focus {
     background-color: inherit;
 }
 
-.visually-hidden {
-    display: none;
+.medium-card {
+    margin-bottom: 20px;
+}
+
+.flash {
+    background-color: yellow;
 }
 
 @media only screen and (min-width: 640px) {
     header {
         height: 800px;
-    }
-
-    .site-nav {
-        text-align: left;
-        padding-left: 10px;
+        padding-top: 50px;
     }
 
     ul li {
-        padding-right: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     header a {
