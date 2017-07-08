@@ -4,7 +4,7 @@ body {
     border: 0;
     background-color: #adaaac;
     color: #000000;
-    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.1em;
     text-align: center;
 }
@@ -14,6 +14,10 @@ a {
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
     font-family: 'Fondamento', cursive;
 }
 
