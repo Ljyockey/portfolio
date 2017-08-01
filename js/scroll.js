@@ -8,7 +8,7 @@ function smoothScroll() {
 	  hash.addClass('flash');
 	  setTimeout(function() {
       	hash.removeClass('flash');
-    }, 500);
+    }, 1000);
   });
 }
 

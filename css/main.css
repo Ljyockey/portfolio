@@ -106,7 +106,7 @@ h3 {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.projects-piece, .medium-posts {
+.projects-piece, .blog-post {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
     0 6px 20px 0 rgba(0, 0, 0, 0.19),
     0 4px 8px 0 rgba(0, 0, 0, 0.2), 
@@ -165,13 +165,15 @@ footer {
 }
 
 .medium-posts {
-    background-color: white;
     padding: 10px;
 }
 
 .medium-posts img {
-    width: 100%;
-    height: auto;
+    padding-top: 10px;
+    height: 200px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .medium-posts a, footer a {
@@ -184,8 +186,16 @@ footer a:hover, footer a:focus {
     background-color: inherit;
 }
 
-.medium-card {
+.blog-post {
     margin-bottom: 20px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.date {
+    position: absolute;
+    background-color: white;
+    left: 50px;
 }
 
 .flash {
