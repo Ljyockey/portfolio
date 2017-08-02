@@ -182,7 +182,8 @@ footer {
 /* noscript only */
 .medium-card img {
     width: 100%;
-    height: auto;
+    max-height: 100%;
+    padding: 5px;
 }
 
 .medium-posts a, footer a {
