@@ -171,18 +171,18 @@ footer {
     padding: 10px;
 }
 
-/* noscript only */
-.medium-card img {
-    width: 100%;
-    height: auto;
-}
-
-.medium-posts img {
+.medium-feed img {
     padding-top: 10px;
     height: 200px;
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
+}
+
+/* noscript only */
+.medium-card img {
+    width: 100%;
+    height: auto;
 }
 
 .medium-posts a, footer a {
