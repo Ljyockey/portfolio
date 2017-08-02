@@ -171,6 +171,12 @@ footer {
     padding: 10px;
 }
 
+/* noscript only */
+.medium-card img {
+    width: 100%;
+    height: auto;
+}
+
 .medium-posts img {
     padding-top: 10px;
     height: 200px;
