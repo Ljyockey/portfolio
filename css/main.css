@@ -49,18 +49,16 @@ section h2, .medium-posts p {
 
 header a,
 .project-links a {
-    border: 1px solid #000000;
-    border-radius: 80%;
+    text-decoration: underline;
 }
 
 header a {
     padding: 5px;
 }
 
- a:hover {
-    background-color: #000000;
-    color: #e1dbd9
-} 
+  a:hover {
+    color: blue;
+}  
 
 ul {
     padding-left: 0;
@@ -97,6 +95,12 @@ h3 {
 .bio-text {
     font-size: 18px;
     text-align: left;
+}
+
+.bio-photo {
+    max-width: 100%;
+    position: relative;
+    top: 50%;
 }
 
 .projects-piece {
@@ -194,13 +198,9 @@ footer a:hover, footer a:focus {
 .blog-post {
     margin-bottom: 20px;
     background-color: white;
-    padding-bottom: 10px;
-}
-
-.date {
-    position: absolute;
-    background-color: white;
-    left: 50px;
+    padding: 10px;
+    height: 300px;
+    overflow: hidden;
 }
 
 .flash {
