@@ -57,7 +57,7 @@ header a {
 }
 
   a:hover {
-    color: blue;
+    color: #CC2936;
 }  
 
 ul {
@@ -192,7 +192,7 @@ footer {
 
 .medium-posts a:hover, .medium-posts a:focus,
 footer a:hover, footer a:focus {
-    color: blue;
+    color: #CC2936;
     background-color: inherit;
 }
 
