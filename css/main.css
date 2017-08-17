@@ -21,12 +21,25 @@ h1, h2, h3 {
     font-family: 'Fondamento', cursive;
 }
 
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: #dfdbda;
+    font-size: 14px;
+    padding: 5px 0 5px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19),
+    0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 header {
     background: url(img/ocean.jpeg) no-repeat center center scroll;
     height: 500px;
     background-size: cover;
     margin-bottom: 30px;
-    padding-top: 10px;
+    padding-top: 50px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -35,7 +48,7 @@ header h1 {
     font-size: 2em;    
 }
 
-.site-nav, header p {
+header p {
     margin-top: 30px;
 }
 
@@ -47,7 +60,6 @@ section h2, .medium-posts p {
     margin-bottom: 20px;
 }
 
-header a,
 .project-links a {
     text-decoration: underline;
 }
@@ -68,6 +80,7 @@ ul {
 ul li {
     list-style-type: none;
     display: inline-block;
+    padding-right: 10px;
 }
 
 
@@ -105,7 +118,7 @@ h3 {
 
 .projects-piece {
     min-height: 500px;
-    background-color: lightgrey;
+    background-color: white;
     min-height: 300px;
     margin: 0 auto 20px auto;
     padding: 10px;
@@ -126,6 +139,7 @@ h3 {
     max-width: 100%;
     height: auto;
     float: right;
+    border: 1px solid lightgray;
 }
 
 .projects-details, .projects-details p:first-child {
@@ -209,9 +223,13 @@ footer a:hover, footer a:focus {
 }
 
 @media only screen and (min-width: 640px) {
+    nav {
+        font-size: inherit;
+        text-align: left;
+    }
     header {
         height: 800px;
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     header h1 {
@@ -219,7 +237,6 @@ footer a:hover, footer a:focus {
     }
 
     ul li {
-        padding-right: 10px;
         padding-left: 10px;
     }
 
