@@ -54,6 +54,10 @@ header p {
     margin-top: 30px;
 }
 
+.js-titles {
+    font-size: 48px;
+}
+
 section {
     margin-bottom: 50px;
 }
