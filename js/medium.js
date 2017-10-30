@@ -13,7 +13,7 @@ $(function () {
         var srcStart = srcIndex + 5; // Find where the actual image URL starts; 5 for the length of 'src="'
         var srcEnd = item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
         var src = item.description.substring(srcStart, srcEnd); // Extract just the URL
-        output += '<div class="blog-element"><img src="' + src + '"></div></div>';
+        output += '<div class="blog-element"><img src="' + src + '" width="100%"></div></div>';
         output += '</div><div class="blog-content"><h3><a href="'+ item.link + '">' + item.title + '</a></h3>';
         var yourString = item.description.replace(/<img[^>]*>/g,""); //replace with your string.
         var maxLength = 270 // maximum number of characters to extract
