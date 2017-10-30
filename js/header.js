@@ -8,7 +8,7 @@ var titles = [
 function displayTitles() {
 	var count = 0;
 	setInterval(function() {
-		$('.js-titles').css({fontSize: '0'}).text(titles[count]).animate({fontSize: '48px'});
+		$('.js-titles').css({fontSize: '0'}).text(titles[count]).animate({fontSize: '1.5em'});
 		count++;
 		if (count == titles.length) {
 			count = 0;

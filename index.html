@@ -1,231 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>L.J. Yockey</title>
+
+  <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Click here for portfolio and personal website of L.J. Yockey, a top young Full Stack Web and JavaScript Developer in LA (Los Angeles) area.">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Fondamento|Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
-    <nav>
-        <ul class="site-nav">
-            <li><a target="blank" rel="noopener noreferrer" href="LJYockeyResume.pdf">Resume</a></li>  
-            <li><a class="scroll" href="#about">About</a></li>
-            <li><a class="scroll" href="#projects">Projects</a></li>
-            <li><a class="scroll" href="#blog">Blog</a></li>
-            <li><a class="scroll" href="#contact">Contact</a></li> 
-        </ul>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Click here for portfolio and personal website of L.J. Yockey, a top young Full Stack Web
+     and JavaScript Developer in LA (Los Angeles) area.">
+    <meta name="author" content="L.J. Yockey">
+
+    <title>L.J. Yockey</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">L.J. Yockey</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="LJYockeyResume.pdf">Resume</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-   <header>
-        <h1>L.J. Yockey</h1>
-        <p class="js-titles">Full-Stack Web Developer</p>
-    </header> 
-    
-    <main>
-        
-        <section class="about" id="about">
-            <div class="bio row">
-                <div class="col-md-6">
-                    <h2>Hi, I'm L.J.</h2>
-                    <div class="bio-text">
-                        <p>Recently, I completed my mission of breaking out of Las Vegas and relocating to Los Angeles. 
-                            My escape route: JavaScript + Python.</p>
 
-                        <p> 
-                        In my free time, I love to visit theme parks and find the perfect GIFs for my Tweets.</p>
-                    </div>
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <img class="img-fluid" src="img/bio.jpg" alt="">
+        <div class="intro-text">
+          <span class="name">L.J. Yockey</span>
+          <hr class="star-light">
+          <p class="header-min-height"><span class="skills js-titles">Full-Stack Web Developer</span></p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="text-center">Portfolio</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
-                <div class="col-md-6">
-                    <img class="bio-photo" src="css/img/bio.jpg" alt="picture of L.J.">
+              </div>
+              <img class="img-fluid" src="img/portfolio/hospitalert.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/hmee.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/hospitalert-demo.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-2"></div>          
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/park-hopper.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/opinions.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-2"></div>          
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+      <div class="container">
+        <h2 class="text-center">About</h2>
+        <hr class="star-light">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p>Recently, I completed my mission of breaking out of Las Vegas and relocating to Los Angeles. 
+            My escape route: JavaScript + Python.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p>In my free time, I love to visit theme parks and find the perfect GIFs for my Tweets.</p>
+          </div>
+          <div class="col-lg-8 mx-auto text-center">
+            <a target="blank" rel="noopener noreferrer" href="LJYockeyResume.pdf" class="btn btn-lg btn-outline">
+              <i class="fa fa-external-link"></i>
+              &nbsp; View Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+      <div class="container">
+        <h2 class="text-center">Blog</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+          <p>I've been keeping a blog on <a href="https://medium.com/@Ljyockey" target="blank" rel="noopener noreferrer">Medium</a> to track my progress and help encourage new programmers. My blogs have been featured on <a href="https://medium.com/thinkful" target="blank" rel="noopener noreferrer">Thinkful</a> and <a href="https://codeburst.io/" target="blank" rel="noopener noreferrer">codeburst.io</a>'s profiles. Here's my latest post:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto medium-feed"></div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center" id="contact">
+      <div class="footer-above">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col col-md-6">
+              <h3>Location</h3>
+              <p>Southern California<br>
+                <a href="mailto:linyockey@gmail.com">linyockey@gmail.com</a></p>
             </div>
-        </section>
-
-        
-
-        <section class="projects" id="projects">
-
-            <h2>Recent Projects</h2>
-
-            <div class="projects-piece row" id="hospitalert">
-                <div class="col-md-6">
-                    <img src="css/img/screenshots/hospitalert.png">
-                </div>
-                <div class="projects-details col-md-6">
-                    <h3>HospitAlert</h3>
-                    <p>A full-stack app which allows users to keep family updated while a loved one is hospitalized.</p>
-                    <ul class="projects-tech">
-                        <li>React</li>
-                        <li>Redux</li>
-                        <li>CSS 3</li>
-                        <li>Node/Express</li>
-                        <li>PostgreSQL</li>
-                        <li>Sequelize</li>
-                        <li>Mocha/Chai</li>
-                        <li>Jest</li>
-                    </ul>
-                    <p class="project-links"><a href="http://www.hospitalert.com/" target="blank" rel="noopener noreferrer">Live</a>
-                        <a href="https://github.com/Ljyockey/hospitalert-client" target="blank" rel="noopener noreferrer">GitHub (client)</a>
-                        <a href="https://github.com/Ljyockey/hospitalert-api" target="blank" rel="noopener noreferrer"> GitHub (API)</a></p>
-                </div>
+            <div class="footer-col col-md-6">
+              <h3>Around the Web</h3>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="https://github.com/Ljyockey">
+                    <i class="fa fa-fw fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="https://medium.com/@Ljyockey">
+                    <i class="fa fa-fw fa-medium"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="https://twitter.com/Ljyockey">
+                    <i class="fa fa-fw fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="https://www.linkedin.com/in/ljyockey">
+                    <i class="fa fa-fw fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="https://angel.co/l-j-yockey">
+                    <i class="fa fa-fw fa-angellist"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
-
-            <div class="projects-piece row" id="hmee-api">
-                <div class="col-md-6">
-                    <img alt="" src="css/img/screenshots/hmee.png">
-                </div>
-                <div class="projects-details col-md-6">
-                    <h3>HMEE-API</h3>
-                    <p>API for Hidden Mickeys and Easter Eggs</p>
-                    <ul class="projects-tech">
-                        <li>Python</li>
-                        <li>Flask</li>
-                        <li>PostgreSQL</li>
-                        <li>SQLAlchemy</li>
-                    </ul>
-                    <p class="project-links"><a href="https://hmee-api.herokuapp.com/" target="blank" rel="noopener noreferrer">Live</a>
-                    <a href="https://github.com/Ljyockey/hmee-api" target="blank" rel="noopener noreferrer">GitHub</a></p>
-                </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              Copyright &copy; L.J. Yockey 2017
             </div>
-
-            <div class="projects-piece row" id="hospitalert-demo">
-                <div class="col-md-6">
-                    <img alt="" src="css/img/screenshots/hospitalert-demo.png">
-                </div>
-                <div class="projects-details col-md-6">
-                    <h3>HospitAlert (Demo)</h3>
-                    <p>The initial MVP for HospitAlert using mock data.</p>
-                    <ul class="projects-tech">
-                        <li>HTML 5</li>
-                        <li>CSS 3</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
-                        <li>Node/Express</li>
-                        <li>MongoDB</li>
-                        <li>Mongoose</li>
-                        <li>Mocha/Chai</li>
-                    </ul>
-                    <p class="project-links"><a href="https://hospitalert.herokuapp.com/" target="blank" rel="noopener noreferrer">Live</a>
-                    <a href="https://github.com/Ljyockey/hospitalert" target="blank" rel="noopener noreferrer">GitHub</a></p>
-                </div>
-            </div>
-
-            <div class="projects-piece row" id="park-hopper">
-                <div class="col-md-6">
-                    <img src="css/img/screenshots/park-hopper.png">
-                </div>
-                <div class="projects-details col-md-6">
-                    <h3>Park Hopper</h3>
-                    <p>A full-stack app which allows users to keep track of their Disneyland trips.</p>
-                    <ul class="projects-tech">
-                        <li>HTML 5</li>
-                        <li>CSS 3</li>
-                        <li>Node/Express</li>
-                        <li>PostgreSQL</li>
-                        <li>Sequelize</li>
-                        <li>Mocha/Chai</li>
-                    </ul>
-                    <p class="project-links"><a href="https://park-hopper.herokuapp.com/" target="blank" rel="noopener noreferrer">Live</a>
-                        <a href="https://github.com/Ljyockey/park-hopper" target="blank" rel="noopener noreferrer">GitHub</a></p>
-                </div>
-            </div>
-
-            <div class="projects-piece row" id="kitty-opinions">
-                <div class="col-md-6">
-                    <img alt="" src="css/img/screenshots/opinions.png">
-                </div>
-                <div class="projects-details col-md-6">
-                    <h3>Kitty Opinions</h3>
-                    <p>An entertaining app in which the user can search for any Foursquare location. When they click on a 
-                    location, they get more info as well as a "tips/reviews" section which contains a cat GIF and a Ron Swanson 
-                    quote from NBC's Parks and Recreation.</p>
-                    <ul class="projects-tech">
-                        <li>HTML 5</li>
-                        <li>CSS 3</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
-                        <li>Foursquare API</li>
-                        <li>Cat API</li>
-                        <li>Ron Swanson Quotes API</li>
-                    </ul>
-                    <p class="project-links"><a href="https://ljyockey.github.io/kitty-opinions/" target="blank" rel="noopener noreferrer">Live</a>
-                    <a href="https://github.com/Ljyockey/kitty-opinions" target="blank" rel="noopener noreferrer">GitHub</a></p>
-                </div>
-            </div>
-        </section>
-
-        
-
-        <section class="medium-posts" id="blog">
-            <h2>Blog</h2>
-            <p>I've been keeping a blog on <a href="https://medium.com/@Ljyockey" target="blank" rel="noopener noreferrer">Medium</a> to track my progress and help encourage new programmers.</p>
-            <div class="row medium-feed">
-                <noscript>
-                    <div class="col-md-6 medium-card">
-                        <a href="https://medium.com/@Ljyockey/these-are-a-few-of-my-favorite-things-86df0d27b695" target="blank" rel="noopener noreferrer"><img alt="screenshot of Medium post" src="css/img/medium/medium-1.png"></a>
-                    </div>
-                    <div class="col-md-6 medium-card">
-                        <a href="https://medium.com/@Ljyockey/how-did-i-get-here-4d36b752f723" target="blank" rel="noopener noreferrer"><img alt="screenshot of Medium post" src="css/img/medium/medium-2.png"></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 medium-card">
-                        <a href="https://medium.com/@Ljyockey/the-final-countdown-9f7c761acace" target="blank" rel="noopener noreferrer"><img alt="screenshot of Medium post" src="css/img/medium/medium-3.png"></a>
-                    </div>
-                    <div class="col-md-6 medium-card">
-                        <a href="https://medium.com/@Ljyockey/late-night-routing-99ab31453a0d" target="blank" rel="noopener noreferrer"><img alt="screenshot of Medium post" src="css/img/medium/medium-6.png"></a>
-                    </div>
-                </div> 
-            </noscript>
-        </section>
-
-        
-
-    </main>
-    
-    <footer id="contact">
-
-        <h2>Contact</h2>
-
-        <p>Email me at <a href="mailto:linyockey@gmail.com">linyockey@gmail.com</a> or find me on social media!</p>
-        <p>
-            <a href="https://github.com/Ljyockey" target="blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x" aria-hidden="true" aria-label="L.J.'s GitHub"></i></a>
-
-            <a href="https://medium.com/@Ljyockey" target="blank" rel="noopener noreferrer"><i class="fa fa-medium fa-2x" aria-hidden="true" aria-label="L.J.'s Medium"></i></a>
-
-            <a href="https://twitter.com/Ljyockey" target="blank" rel="noopener noreferrer"><i class="fa fa-twitter fa-2x" aria-hidden="true" aria-label="L.J.'s Twitter"></i></a>
-
-            <a href="https://www.linkedin.com/in/linda-yockey-589b47132/" target="blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" aria-label="L.J.'s LinkedIn"></i></a>
-
-            <a href="https://angel.co/l-j-yockey" target="blank" rel="noopener noreferrer"><i class="fa fa-angellist fa-2x" aria-hidden="true" aria-label="L.J.'s Angel List"></i></a>
-        </p>
-        <noscript>
-            <p>
-                <a href="https://github.com/Ljyockey" target="blank" rel="noopener noreferrer">GitHub</a
-
-               > | <a href="https://medium.com/@Ljyockey" target="blank" rel="noopener noreferrer">Medium</a
-
-               > | <a href="https://twitter.com/Ljyockey" target="blank" rel="noopener noreferrer">Twitter</a
-
-               > | <a href="https://www.linkedin.com/in/ljyockey" target="blank" rel="noopener noreferrer">LinkedIn</a
-
-               > | <a href="https://angel.co/l-j-yockey" target="blank" rel="noopener noreferrer">Angel List</a>
-            </p>
-        </noscript>
-
+          </div>
+        </div>
+      </div>
     </footer>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>  
-    <script src="https://use.fontawesome.com/e2a5a772d8.js"></script>
-    <script type="text/javascript" src="js/date-format.js"></script>
-    <script type="text/javascript" src="js/header.js"></script>
-    <script type="text/javascript" src="js/scroll.js"></script>
-    <script type="text/javascript" src="js/medium.js"></script>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top d-lg-none">
+      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>HospitAlert</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/hospitalert.png" alt="">
+                  <p>A full-stack app which allows users to keep family updated while a loved one is hospitalized.</p>
+                  <ul class="projects-tech">
+                      <li>React</li>
+                      <li>Redux</li>
+                      <li>CSS 3</li>
+                      <li>Node/Express</li>
+                      <li>PostgreSQL</li>
+                      <li>Sequelize</li>
+                      <li>Mocha/Chai</li>
+                      <li>Jest</li>
+                  </ul>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="http://www.hospitalert.com/" target="blank" rel="noopener noreferrer">Live</a>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/Ljyockey/hospitalert-client" target="blank" rel="noopener noreferrer">GitHub (client)</a>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/Ljyockey/hospitalert-api" target="blank" rel="noopener noreferrer"> GitHub (API)</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>HMEE API</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/hmee.png" alt="">
+                  <p>API for Hidden Mickeys and Easter Eggs</p>
+                  <ul class="projects-tech">
+                      <li>Python</li>
+                      <li>Flask</li>
+                      <li>PostgreSQL</li>
+                      <li>SQLAlchemy</li>
+                  </ul>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://hmee-api.herokuapp.com/" target="blank" rel="noopener noreferrer">Live</a>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/Ljyockey/hmee-api" target="blank" rel="noopener noreferrer">GitHub</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>HospitAlert (Demo)</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/hospitalert-demo.png" alt="">
+                  <p>The initial MVP for HospitAlert using mock data.</p>
+                  <ul class="projects-tech">
+                      <li>HTML 5</li>
+                      <li>CSS 3</li>
+                      <li>Bootstrap</li>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>Node/Express</li>
+                      <li>MongoDB</li>
+                      <li>Mongoose</li>
+                      <li>Mocha/Chai</li>
+                  </ul>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://hospitalert.herokuapp.com/" target="blank" rel="noopener noreferrer">Live</a>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/Ljyockey/hospitalert" target="blank" rel="noopener noreferrer">GitHub</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Park Hopper</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/park-hopper.png" alt="">
+                  <p>A full-stack app which allows users to keep track of their Disneyland trips.</p>
+                  <ul class="projects-tech">
+                      <li>HTML 5</li>
+                      <li>CSS 3</li>
+                      <li>Node/Express</li>
+                      <li>PostgreSQL</li>
+                      <li>Sequelize</li>
+                      <li>Mocha/Chai</li>
+                  </ul>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://park-hopper.herokuapp.com/" target="blank" rel="noopener noreferrer">Live</a>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/Ljyockey/park-hopper" target="blank" rel="noopener noreferrer">GitHub</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Kitty Opinions</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/opinions.png" alt="">
+                  <p>An entertaining app in which the user can search for any Foursquare location. When they click on a 
+                  location, they get more info as well as a "tips/reviews" section which contains a cat GIF and a Ron Swanson 
+                  quote from NBC's Parks and Recreation.</p>
+                  <ul class="projects-tech">
+                      <li>HTML 5</li>
+                      <li>CSS 3</li>
+                      <li>Bootstrap</li>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>Foursquare API</li>
+                      <li>Cat API</li>
+                      <li>Ron Swanson Quotes API</li>
+                  </ul>
+                  <ul class="list-inline item-details">
+                    <li>
+                      <strong>
+                        <a href="https://ljyockey.github.io/kitty-opinions/" target="blank" rel="noopener noreferrer">Live</a>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/Ljyockey/kitty-opinions" target="blank" rel="noopener noreferrer">GitHub</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Project Title</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/submarine.png" alt="">
+                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
+                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                  <ul class="list-inline item-details">
+                    <li>Client:
+                      <strong>
+                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+                      </strong>
+                    </li>
+                    <li>Date:
+                      <strong>
+                        <a href="http://startbootstrap.com">April 2014</a>
+                      </strong>
+                    </li>
+                    <li>Service:
+                      <strong>
+                        <a href="http://startbootstrap.com">Web Development</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+    <script src="js/medium.js"></script>
+    <script src="js/date-format.js"></script>
+    <script src="js/header.js"></script>
 
     <!-- Google Analytics -->
     <script>
@@ -236,8 +541,8 @@
 
       ga('create', 'UA-105227446-1', 'auto');
       ga('send', 'pageview');
-    </script>
+    </script>    
 
-</body>
+  </body>
 
-</html> 
+</html>
